@@ -92,14 +92,12 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  主页: /
-  #about: /about/ || user
+  主页: / || home
+  关于: /about/ || user
   标签: /tags/ || tags
-  #categories: /categories/ || th
-  所有文章: /archives/
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  目录: /categories/ || th
+  归档: /archives/ || archive
+  搜索: /search/ || search
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -154,7 +152,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /uploads/timg.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -353,7 +351,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: f70b82900b3d8bcda99caaefb0352226
 
 # Duoshuo ShortName
 #duoshuo_shortname:
