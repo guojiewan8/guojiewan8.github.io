@@ -1,38 +1,33 @@
 ---
-title: Hello World
+title: hexo+github搭建个人博客
+date: 2018-12-5 13:53:05
+categories: 
+- hexo
+tags: 
+- hexo
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+## 搭建环境准备：
 
-### Create a new post
+### 1.安装Node.js
 
+下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
+
+### 2.安装Git软件
+
+下载地址：[https://git-scm.com/download](https://git-scm.com/download)
+
+### 3.安装Hexo
+
+#### hexo介绍
+
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+
+Hexo官方网站：[https://hexo.io/zh-cn/](https://hexo.io/zh-cn/)
+
+#### 安装
+
+安装命令：
 ``` bash
-$ hexo new "My New Post"
+$ npm install -g hexo-cli  #-g表示全局安装
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)

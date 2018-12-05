@@ -45,7 +45,7 @@ rss: /atom.xml
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2018
 
   # Icon between year and copyright info.
   icon: user
@@ -54,13 +54,13 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  #powered: true
 
-  theme:
+  #theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    #enable: true
     # Version info of NexT after scheme info (vX.X.X).
-    version: true
+    #version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
   #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
@@ -95,7 +95,7 @@ menu:
   主页: / || home
   关于: /about/ || user
   标签: /tags/ || tags
-  目录: /categories/ || th
+  分类: /categories/ || th
   归档: /archives/ || archive
   搜索: /search/ || search
 
@@ -808,10 +808,3 @@ images: images
 
 # Theme version
 version: 5.1.4
-
-feed: # RSS订阅插件
-  type: atom
-  path: atom.xml
-  limit: 0
-
-plugins: hexo-generate-feed
