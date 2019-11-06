@@ -13,7 +13,7 @@ tags:
 
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
 
-### 2.安装Git软件
+### 2.安哥拉了改好
 
 下载地址：[https://git-scm.com/download](https://git-scm.com/download)
 
