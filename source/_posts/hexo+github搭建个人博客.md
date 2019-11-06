@@ -13,7 +13,7 @@ tags:
 
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
 
-### 2.安哥拉了改好
+### 2.安该死的规范根深蒂固
 
 下载地址：[https://git-scm.com/download](https://git-scm.com/download)
 
