@@ -37,7 +37,7 @@ favicon:
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
 
-# Set rss to false to disable feed link.
+# Set rss to false to disable npm install hexo-generator-searchdb --save link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
 rss: /atom.xml
@@ -54,11 +54,11 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  #powered: true
+  powered: false
 
-  #theme:
+theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    #enable: true
+  enable: false
     # Version info of NexT after scheme info (vX.X.X).
     #version: true
   # -------------------------------------------------------------
@@ -236,9 +236,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: true
+  min2read: true
+  totalcount: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -248,9 +248,9 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
-#alipay: /images/alipay.jpg
+reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
+wechatpay: /images/wechatpay.jpg
+alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -359,7 +359,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: f70b82900b3d8bcda99caaefb0352226
+baidu_analytics: 248fcee538a17184bf39f85438fcc6d7
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -538,8 +538,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  app_id: 4zFXp6M0r1543pXxJIlU3m3U-gzGzoHsz
+  app_key: aztueCLHdBeafYBh660JY9T6
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -610,7 +610,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto

@@ -5,11 +5,12 @@ categories:
 - hexo
 tags: 
 - hexo
+comments: true
 ---
 
 ## 搭建环境准备：
 
-### 1.估计拉科技馆单联开关
+### 1.aaaaaaaaaaaaaaaa
 
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
 
