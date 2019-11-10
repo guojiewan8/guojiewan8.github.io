@@ -5,6 +5,7 @@ categories:
 - hexo
 tags: 
 - hexo
+comments: true
 ---
 
 ## 搭建环境准备：
