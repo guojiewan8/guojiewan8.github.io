@@ -1,6 +1,6 @@
 ---
-title: hexo+github搭建个人博客
-date: 2018-12-5 13:53:05
+title: hexo + github + aliyun ecs搭建个人博客,并实现自动提交发布
+date: 2020-05-18 11:03:00
 categories: 
 - hexo
 tags: 
@@ -10,11 +10,11 @@ comments: true
 
 ## 搭建环境准备：
 
-### 1.ccccccccccc
+### 1. node.js安装
 
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
 
-### 2.安该死的规范根深蒂固
+### 2. git安装
 
 下载地址：[https://git-scm.com/download](https://git-scm.com/download)
 
