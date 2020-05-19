@@ -10,21 +10,21 @@ comments: true
 
 ## 搭建环境准备：
 
-### 1. node.js安装
+### node.js安装
 
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download)
 
-### 2. git安装
+### git安装
 
 下载地址：[https://git-scm.com/download](https://git-scm.com/download)
-
-### 3.安装Hexo
 
 #### hexo介绍
 
 Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
 Hexo官方网站：[https://hexo.io/zh-cn/](https://hexo.io/zh-cn/)
+
+### 安装Hexo
 
 #### 安装
 
